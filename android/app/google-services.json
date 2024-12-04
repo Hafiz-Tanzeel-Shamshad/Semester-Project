@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "687580991694",
+    "project_id": "fir-b2712",
+    "storage_bucket": "fir-b2712.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:687580991694:android:5970da942263644ef1409f",
+        "android_client_info": {
+          "package_name": "com.example.firebase_setup"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFJ7Yii-Bstm-2QVGo7DY09tN5SYjvoYY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:687580991694:android:2bc6e206f101c529f1409f",
+        "android_client_info": {
+          "package_name": "com.riphah.firebase_setup"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFJ7Yii-Bstm-2QVGo7DY09tN5SYjvoYY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
