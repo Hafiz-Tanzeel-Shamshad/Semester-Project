@@ -99,7 +99,7 @@ flutter run
 - Implement **offline weather caching**  
 - Add **multiple AI difficulty levels**
 
-
+---
 
 ## 👨‍💻 Author
 
@@ -107,5 +107,6 @@ flutter run
 📧 [hafiztanzeel.pk@gmail.com](mailto:hafiztanzeel.pk@gmail.com)  
 🌐 [GitHub](https://github.com/Hafiz-Tanzeel-Shamshad) | [LinkedIn](https://www.linkedin.com/in/hafiz-tanzeel-shamshad-8680a8309/)  
 
+---
 📜 License
 This project is licensed under the MIT License.
