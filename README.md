@@ -1,38 +1,34 @@
-# 🌤 Flutter Weather App + Firebase + Tic-Tac-Toe AI Game
+# 🌤 Flutter Weather App + Firebase CRUD + Authentication + Tic-Tac-Toe AI Game
 
 This project is a **multi-functional Flutter application** that combines:
-1. **Weather Forecasting** (via OpenWeatherMap API)
-2. **User Authentication & Data Storage** (via Firebase)
-3. **Tic-Tac-Toe Game with AI Opponent** (using Minimax or Alpha-Beta Pruning algorithms)
+
+- 🌦 **Weather Forecasting** – Fetches real-time weather updates using the [OpenWeatherMap API](https://openweathermap.org/api) with geolocation or city-based search.
+- 🔥 **Firebase CRUD Operations** – Manage, store, and retrieve user data in Cloud Firestore with full **Create, Read, Update, Delete** capabilities.
+- 🔑 **User Authentication** – Secure sign-up, login, and logout functionality with Firebase Authentication (Email/Password or Google Sign-In).
+- 🎮 **Tic-Tac-Toe Game with AI Opponent** – Play against an AI opponent powered by **Minimax** or **Alpha-Beta Pruning** algorithms for optimal moves.
 
 ---
 
 ## 📌 Features
 
-### 1. **Weather Forecast**
-- Fetches **real-time weather** for the current location or a searched city.
-- Uses the **OpenWeatherMap API**.
-- Displays:
-  - Temperature
-  - Weather condition (e.g., sunny, cloudy, rainy)
-  - Location details
-  - Icons representing the weather
+### 🌦 Weather Module
+- Current weather based on **GPS location**  
+- **City-based** weather search  
+- Beautiful UI with icons and temperature details  
 
-### 2. **Firebase Integration**
-- **User Authentication** (Sign Up / Sign In with email & password)
-- **Firebase Firestore Database** to store user information
-- Can track user preferences and history
-- Secure **real-time database operations**
+### 🔥 Firebase Integration
+- Real-time **Firestore database** for storing custom data  
+- CRUD operations with **authentication-based access control**  
 
-### 3. **Tic-Tac-Toe AI Game**
-- Classic **Tic-Tac-Toe** (3x3 grid)
-- Two modes:
-  - **Player vs Computer** (AI-powered)
-  - **Player vs Player**
-- AI decision-making:
-  - **Minimax Algorithm** for perfect play
-  - **Alpha-Beta Pruning** for faster computation
-- Game result tracking (win/draw/loss)
+### 🔑 Authentication
+- Sign up & login with **email/password**  
+- Password reset functionality  
+- **Session persistence**  
+
+### 🎮 Tic-Tac-Toe AI Game
+- Single-player mode vs. AI  
+- **Minimax** & **Alpha-Beta Pruning** algorithms for decision-making  
+- Clean UI & responsive animations  
 
 ---
 
