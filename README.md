@@ -45,8 +45,18 @@ This project is a **multi-functional Flutter application** that combines:
 
 ---
 
-## 📂 Project Structure
+## 📂 Folder Structure
 
+```yaml
+lib/
+├── Authentication/         # User authentication (Firebase login/signup)
+├── CRUD/                    # Create, Read, Update, Delete operations
+├── Project_Files/           # Core project-related Dart files
+├── Weather_API/             # Weather fetching logic & API integration
+├── Home_page.dart           # Main home page UI
+├── firebase_options.dart    # Firebase configuration
+└── main.dart                # App entry point
+```
 
 ---
 
@@ -85,6 +95,7 @@ flutter pub get
 
 ```bash
 flutter run
+```
 ## 🎯 Future Improvements
 
 - Add **Push Notifications** for weather alerts  
@@ -93,8 +104,6 @@ flutter run
 - Add **multiple AI difficulty levels**
 
 
-📜 License
-This project is licensed under the MIT License.
 
 ## 👨‍💻 Author
 
@@ -102,3 +111,5 @@ This project is licensed under the MIT License.
 📧 [hafiztanzeel.pk@gmail.com](mailto:hafiztanzeel.pk@gmail.com)  
 🌐 [GitHub](https://github.com/Hafiz-Tanzeel-Shamshad) | [LinkedIn](https://www.linkedin.com/in/hafiz-tanzeel-shamshad-8680a8309/)  
 
+📜 License
+This project is licensed under the MIT License.
